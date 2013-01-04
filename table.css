@@ -1,0 +1,64 @@
+form{
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	margin:auto;
+	position:relative;
+	width:550px;
+	height:350px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 24px;
+	font-weight: bold;
+	color: #09C;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+	border: 1px solid #999;
+	border: inset 1px solid #333;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input{
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+}
+
+textarea#textarea{
+	width: 370px;
+	height: 150px;
+}
+
+input[type="text"] { width: 300px; }
+
+#upload{
+	width: 300px;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
